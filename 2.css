@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  cursor: none; /* Hide default cursor */
+  overflow: hidden;
+}
+
+#dragon-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.segment {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: transform 0.1s;
+  opacity: 0.9;
+}
+
+.segment::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff, #cccccc);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
