@@ -1,1 +1,1 @@
-This project showcases a simple yet dynamic animation of a dragon moving across the screen using HTML, CSS, and JavaScript. The dragon glides back and forth smoothly, flipping direction as it reaches the edges of the screen to simulate a flying motion.
+This project showcases a simple yet dynamic animation of a dragon moving across the screen using HTML, CSS, and JavaScript. The dragon glides back and forth smoothly, flipping direction as it reaches the edges of the screen to simulate a moving motion.
